@@ -41,3 +41,43 @@ div{
     padding: 10px 40px 100px 20px;
 
 }
+
+#dottedBorder{
+    border: 3px dotted navy;
+}
+
+#dashedBorder{
+       border: 2px dashed red;
+}
+
+#solidBorder{
+     border: 4px solid yellow;
+}
+
+#doubleBorder{
+      border: 10px double green;
+}
+
+#groovedBorder{
+       border: 4px groove orange;
+}
+
+#ridgedBorder{
+      border: 5px ridge purple;
+}
+
+#insetBorder{
+      border: 10px inset gray;
+}
+
+#outsetBorder{
+      border: 10px outset gray;
+}
+
+/*TOP RIGHT BOTTOM LEFT*/
+
+#mixedBorder{
+      border-color: chartreuse;
+      border-style: dotted outset inset groove;
+      border-width: 20px;
+}
